@@ -1,11 +1,12 @@
 import React from 'react';
 
 type RenderIfProps = {
+  condition: boolean;
   children: any;
 };
 
-const RenderIf = ({ children }: RenderIfProps) => {
-  return children ? <React.Fragment>{children}</React.Fragment> : null;
+const RenderIf = ({ children, condition }: RenderIfProps) => {
+  return condition ? <React.Fragment>{children}</React.Fragment> : null;
 };
 
 export default RenderIf;

@@ -1,7 +1,6 @@
 {
   "name": "react-components-utils",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
   "main": "./src/index.tsx",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
