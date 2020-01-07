@@ -1,0 +1,25 @@
+{
+  "name": "utils-components",
+  "version": "1.0.1",
+  "main": "dist/components/index.js",
+  "types": "dist/components/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": "git@github.com:devrchancay/react-components-utils.git",
+  "author": "Ramon Chancay <ramon.chancay@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && cpx './src/**/*.{d.ts,png}' ./dist"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "cpx": "^1.5.0",
+    "typescript": "^3.7.4"
+  }
+}
