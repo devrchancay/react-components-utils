@@ -1,0 +1,46 @@
+// 20200107104346
+// https://raw.githubusercontent.com/nexxtway/react-native-rainbow/master/tsconfig.json
+
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "noEmit": false,
+    "strict": true,
+    "target": "esnext",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "declaration": true,
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+    "preserveConstEnums": true,
+    "allowJs": false,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "traceResolution": false,
+    "module": "esnext",
+    "skipLibCheck": true,
+    "rootDir": "src",
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "baseUrl": ".",
+    "checkJs": false
+  },
+  "exclude": [
+    "**/*.spec.js",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "node_modules",
+    "**/node_modules/*",
+    "android",
+    "ios",
+    "dist",
+    "scripts",
+    "storybook",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js",
+    "index.js"
+  ]
+}
